@@ -5,7 +5,7 @@ public class Palindrome{
 		Scanner sc= new Scanner(System.in);
 		int n = sc.nextInt();
 		String s = String.valueOf(n);
-		String ch = removeDigit(s,n);
+		String ch = removeDigit(s,s.length());
 		System.out.println(ch);
  	}
 	public static String removeDigit(String s, int n){

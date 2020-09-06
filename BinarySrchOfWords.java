@@ -44,7 +44,7 @@ public static int binarySearchofWords(String dict[],int n,String key){
 	}
   
 	public static void main(String []args){
-		String dict[] = {"ALORITHM","ANALOG","APP","APPLICATION","ARRAY","BACKUP","BANDWIDTH","BINARY","BIT","BITE","CAPS","CAPTCHA","CD","CD-ROM","CLIENT",
+		String dict[] = {"ALGORITHM","ANALOG","APP","APPLICATION","ARRAY","BACKUP","BANDWIDTH","BINARY","BIT","BITE","CAPS","CAPTCHA","CD","CD-ROM","CLIENT",
 				 "DASHBOARD","DATA","DATABASE","DEBUG","EMAIL","ENCRYPT","ENTER","FILE","FIREWALL","GIGABITE","HACK","HARDWARE"};
                 Scanner sc = new Scanner(System.in);
      		for(int i=0;i<dict.length;i++){
